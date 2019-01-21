@@ -1,5 +1,5 @@
 #!/bin/sh
-vspipe --y4m release.py - |  mpv --demuxer rawvideo --demuxer-rawvideo-mp-format=yuv420p10 -
+vspipe -y release.py - |  mpv --force-seekable=yes -
 
 # yuv420p                                                                                                                                                                      
 # yuva420p                                                                                                                                                                     
